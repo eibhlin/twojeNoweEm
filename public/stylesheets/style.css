@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right {
+	margin-left:auto; 
+	margin-right:0px;
+} 
+
+.page-header {
+	display: inline-block;	
+}
+	
+
+
+
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+	

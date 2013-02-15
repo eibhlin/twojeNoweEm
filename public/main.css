@@ -1,0 +1,111 @@
+.clear {
+	clear: both;
+}
+div.full-height {
+	overflow: auto;
+}
+body {
+	margin: 0px; padding: 0px; width: 100%; height: 100%; color: rgb(51, 51, 51); line-height: 20px; overflow: hidden; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px;
+}
+pre {
+	background: rgb(238, 238, 238); padding: 1px 5px;
+}
+p code {
+	background: rgb(238, 238, 238); padding: 1px 5px;
+}
+pre {
+	padding: 5px;
+}
+pre .highlight {
+	background: rgb(221, 221, 221);
+}
+blockquote {
+	margin: 1em 0px; padding-left: 10px; border-left-color: rgb(238, 238, 238); border-left-width: 5px; border-left-style: solid;
+}
+#left_column {
+	width: 50%; float: left;
+}
+#right_column {
+	width: 50%; float: left;
+}
+.wrapper {
+	padding: 20px; position: relative;
+}
+#left_column .wrapper {
+	padding-right: 19px; border-right-color: rgb(247, 247, 247); border-right-width: 1px; border-right-style: solid;
+}
+#right_column .wrapper {
+	padding-left: 19px; border-left-color: rgb(247, 247, 247); border-left-width: 1px; border-left-style: solid;
+}
+.wrapper .overlay {
+	top: 20px; right: 40px; position: absolute;
+}
+.wrapper .overlay .button {
+	background: rgb(255, 255, 255); padding: 0px 6px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); color: rgb(153, 153, 153); font-size: 11px; text-decoration: none; margin-right: 5px; float: left; opacity: 0.5; -moz-border-radius: 3px; -webkit-border-radius: 3px; -moz-transition: opacity .5s; -webkit-transition: opacity .5s; -o-transition: opacity .5s; transition: opacity .5s;
+}
+.wrapper .overlay .button:hover {
+	box-shadow: inset 0px -1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 -1px 1px rgba(0, 0, 0, .1); -moz-box-shadow: inset 0 -1px 1px rgba(0, 0, 0, .1);
+}
+.wrapper .overlay .button:active {
+	background: rgb(249, 249, 249); box-shadow: inset 0px 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); text-shadow: 1px 1px #fff;
+}
+.wrapper .overlay .active.button {
+	background: rgb(249, 249, 249); box-shadow: inset 0px 1px 1px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); text-shadow: 1px 1px #fff;
+}
+.wrapper:hover .overlay .button {
+	opacity: 1;
+}
+.wrapper .overlay .switch.button {
+	margin: 0px 0px 0px -1px; border-radius: 0px; -moz-border-radius: 0; -webkit-border-radius: 0;
+}
+.wrapper .overlay :first-of-type.switch.button {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; -moz-border-bottom-left-radius: 3px; -webkit-border-bottom-left-radius: 3px;
+}
+.wrapper .overlay :last-of-type.switch.button {
+	margin-right: 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; -moz-border-top-right-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-bottom-right-radius: 3px; -webkit-border-bottom-right-radius: 3px;
+}
+#left_column #markdown {
+	margin: 0px; padding: 0px; border: 0px currentColor; width: 100%; display: block; resize: none;
+}
+#right_column #html {
+	margin: 0px; padding: 0px; border: 0px currentColor; width: 100%; display: block; resize: none;
+}
+#left_column #markdown:focus {
+	
+}
+#right_column #html:focus {
+	
+}
+#left_column #top_panels_container .top_panel {
+	background: rgb(255, 255, 255); padding: 20px; border-bottom-color: rgb(247, 247, 247); border-bottom-width: 2px; border-bottom-style: solid; display: none; position: relative;
+}
+#left_column #top_panels_container .top_panel a {
+	color: rgb(51, 51, 51);
+}
+#left_column #top_panels_container .top_panel .close {
+	padding: 3px; border-radius: 10px; top: 20px; width: 14px; height: 14px; text-align: center; right: 20px; color: rgb(221, 221, 221); line-height: 14px; font-size: 14px; position: absolute; cursor: pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+#left_column #top_panels_container .top_panel .close:hover {
+	background: rgb(247, 247, 247); color: rgb(153, 153, 153);
+}
+#quick_reference {
+	line-height: 1.25em; font-size: 12px;
+}
+#quick_reference table {
+	border-collapse: collapse; border-spacing: 0;
+}
+#quick_reference table td {
+	padding: 1px 0px;
+}
+#quick_reference table td:first-child {
+	cursor: pointer;
+}
+#quick_reference table td:last-child {
+	padding-left: 20px;
+}
+#quick_reference table td pre {
+	margin: 0px;
+}
+#quick_reference table td p {
+	margin: 0px;
+}
