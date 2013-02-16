@@ -21,6 +21,13 @@
 	margin-top:-420px;
 }
 
+.modal {
+	max-width:300px;
+	min-width:299px;
+	margin-left:-150px;
+	margin-right:auto;
+}
+
 .allGrey {
 	position:absolute;
 	background-color:#1e1e1e;
