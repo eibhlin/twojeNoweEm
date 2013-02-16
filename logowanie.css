@@ -21,18 +21,6 @@
 	margin-top:-420px;
 }
 
-.allGrey {
-	position:absolute;
-	background-color:#1e1e1e;
-	height: 420px;
-    width: 940px;
-	opacity: 0.4;
-	margin-left:auto;
-	margin-right:0px;
-	z-index:3;
-	margin-top:-420px;
-}
-
 .forward {
 	position:absolute;
 	z-index:2;

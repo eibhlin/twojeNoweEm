@@ -11,6 +11,8 @@
     <link href="/stylesheets/bootstrap.css" rel="stylesheet">
     <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="public/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    
     <style type="text/css">
 body {
 	padding-top: 20px;
@@ -63,6 +65,12 @@ body {
 
 <body>
 
+<script>
+$(function ()    
+	{ $("#myModal").modal();    
+}); 
+</script>
+
 	<div class="container">
 		
         <div class="page-header">
@@ -88,7 +96,7 @@ body {
             <div class="input-append pull-right">
   					<input class="span3" id="appendedInputButtons" type="text" placeholder="Mokotów, Biały Kamień" name="search">
                 	<button class="btn" type="button"><i class="icon-search"></i></button>
-         		</div>
+         	</div>
          </form>
             
          
@@ -121,12 +129,35 @@ body {
         	
         </div>
         
-        <div class="forward">
-        	<button class="btn btn-info" type="button"><i class="icon-arrow-right icon-white"></i></button>
-		</div>
-        	
+        
+        
+<div class="forward">
+	<a href="#myModal" class="btn btn-info" data-toggle="modal"><i class="icon-arrow-right icon-white"></i></a>       
+</div>
+        
+<div class="modal hide fade" id="myModal">
+	
+    <div class="modal-header">
+    	<h3>Sing in</h3>
+    </div>
+
+	<div class="modal-body">
+    	<form>
+        	<label>email</label>
+        </form>
+    </div>
+    
+    <div class="modal-footer">
+    	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+
+</div>
+			
+        
+       
+    			
                        
 	</div>
-    
+
 </body>
 </html>
