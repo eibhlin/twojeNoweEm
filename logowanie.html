@@ -10,11 +10,11 @@
     <!-- Le styles -->
     <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="public/FontAwesome/css/font-awesome.min.css">
+    
+    <script type="text/javascript" src="public/jquery.min.js"></script>
     <link href="public/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
     <script type="text/javascript" src="public/javascripts/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
     
-
     <style type="text/css">
 body {
 	padding-top: 20px;
@@ -77,10 +77,11 @@ body {
   			<p class="span9" style="margin-left:102px; letter-spacing:1px;">Obejrzyj swoje nowe em!</p>
             <div class="btn-group">
   				<button class="btn btn-danger">Dodaj film</button>
-  				<button class="btn">Moje konto</button>
+  				<button class="btn" data-toggle="modal" id="mojeKonto">Moje konto</button>
 			</div>
 		</div>
-        
+        <script>
+        </script>
         
        
         <form class="form-inline">
@@ -137,7 +138,7 @@ body {
 	
     <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">&nbsp Sing in &nbsp <small>or sing up</small></h3>
+    <h3 id="myModalLabel">&nbsp Sign in &nbsp <small>or sign up</small></h3>
   </div>
 
 	<div class="modal-body">
