@@ -90,9 +90,7 @@ body {
         <form class="form-inline">
         	
             <div class="btn-group">
-  				<button class="btn">Najnowsze</button>
-  				<button class="btn btn-info active">Najpopularniejsze</button>
-  				<button class="btn">Mapa</button>
+  				
 			</div>
             
             <div class="input-append pull-right">
@@ -101,43 +99,59 @@ body {
          	</div>
             
          </form>
-            
+        
          
-        
-        <div class="row-fluid">
-        	<div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-        </div><br>
-        
-        <div class="row-fluid">
-        	<div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-        </div>
-        
-        
-        <div class="grey">
+		<div class="span8">
         	
+            <div class="video">
+        	<h4>Piękne mieszkanie na ul. Prześlicznej</h4>
+            
+            <img src="http://dummyimage.com/620x400/807680/fff.png"/><br><br>
+            
+        	<button class="btn btn-success span4 pull-right">Skontaktuj się</button><br><br>
+            <div class="pull-right">
+            <button class="heart btn btn-link"><i class="icon-heart-empty"></i> Podoba mi się!</button>
+			</div>
+            
+            </div> 
+        </div>
+
+		
+        <div class="span3">
+        
+        <div class="menu-right">
+        	<ul class="nav nav-tabs" id="myTab">
+  				<li class="active"><a href="#okolica"><small>W tej samej okolicy</small></a></li>
+  				<li><a href="#polecane"><small>Polecane</small></a></li>
+  				<li><a href="#najlepsze"><small>Najlepsze</small></a></li>
+			</ul>
+ 
+			<div class="tab-content">
+  				<div class="tab-pane active" id="okolica">
+                	<ul class="none">
+						<li>
+                    		<img src="http://dummyimage.com/150x100/807680/fff.png"/>
+                            <span class="powierzchnia pull-right">60</span><br>
+                            <span class="adres pull-right">ul. Śliczna</span><br>
+                            <span class="cena">5.000.000</span>
+                    	</li>
+                    </ul>
+                </div>
+  				<div class="tab-pane" id="polecane">...</div>
+  				<div class="tab-pane" id="najlepsze">...</div>
+			</div>
+		
+       
+ 
+			<script>
+  				$(function () {
+    			$('#myTab a:last').tab('show');
+  				})
+			</script>
+
+		</div>
         </div>
         
-        
-        
-		<div class="forward">
-    		<button class="btn btn-info"><i class="icon-double-angle-right icon-white"></i></button>   
-		</div>
         
 		<div class="modal hide fade" id="myModal">
 	
