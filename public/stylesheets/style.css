@@ -35,6 +35,10 @@
 	margin-top:-225px;
 }
 
+.wiecej {
+	margin-left:48px;	
+}
+
 .heart {
 	color:#ce171f;
 	text-decoration:none;
@@ -43,25 +47,60 @@
 }
 
 .menu-right {
-	width:350px;	
+	width:228px;;
 }
 
-ul.none {
-	list-style-type:none;
-	display:inline-block;	
-	width:300px;	
+
+.none {
+	position:absolute;
+	list-style-type:none;	
+	width:270px;
+	height:400px;	
+	display:inline-block;
+	margin-top:-50x;
+	margin-right:300px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#okolica {
+
+}
+
+videoMini {
+	position:absolute;
+	width:100px;
+	margin-right:200px;
+}
+
+.opis {
+	position:relative;
+	width:90px;
+	padding-left:30px;
+	padding-bottom:10px;
+	display:block;
+	float:right;
+	margin-right:-2px;
+	margin-top:0px;
 }
 
 .powierzchnia {
-
+	float:left;
+	margin-right:auto;
+	margin-left:-30px;
 }
 
-.adres {
 
+.adres {
+	float:left;
+	margin-right:auto;
+	margin-left:-30px;
 }
 
 .cena {
-
+	float:left;
+	margin-right:auto;
+	margin-left:-30px;
 }
 
 .video {

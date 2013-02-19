@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pl">
     <head>
@@ -14,6 +15,7 @@
     <script type="text/javascript" src="public/jquery.min.js"></script>
     <link href="public/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
     <script type="text/javascript" src="public/javascripts/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap-tab.js"></script>
     
     <style type="text/css">
 body {
@@ -90,37 +92,52 @@ body {
         <form class="form-inline">
         	
             <div class="btn-group">
-  				
-			</div>
+  			</div>
+            
             
             <div class="input-append pull-right">
-  					<input class="span3" id="appendedInputButtons" type="text" placeholder="Mokotów, Biały Kamień" name="search">
+  					<input id="appendedInputButtons" type="text" placeholder="Mokotów, Biały Kamień" name="search" style="width:228px;">
                 	<button class="btn" type="button"><i class="icon-search"></i></button>
          	</div>
             
          </form>
         
+        
          
 		<div class="span8">
         	
             <div class="video">
-        	<h4>Piękne mieszkanie na ul. Prześlicznej</h4>
+        		<h4>Piękne mieszkanie na ul. Prześlicznej</h4>
             
-            <img src="http://dummyimage.com/620x400/807680/fff.png"/><br><br>
+            	<img src="http://dummyimage.com/620x400/807680/fff.png"/><br><br>
             
-        	<button class="btn btn-success span4 pull-right">Skontaktuj się</button><br><br>
-            <div class="pull-right">
-            <button class="heart btn btn-link"><i class="icon-heart-empty"></i> Podoba mi się!</button>
-			</div>
+            	
+            	<span>Dom jednorodzinny</span> <span>&nbsp &nbsp &nbsp &nbsp &nbsp Do wynajęcia</span> 
+            
+        		<button class="btn btn-success span4 pull-right">Skontaktuj się</button><br><br>
+                
+                <span>Powierzchnia: 200 m2</span>
+                
+                <button class="wiecej btn btn-link"></i> więcej<i class="icon-double-angle-right"></i></button>
+            	
+                <div class="pull-right">
+            
+            
+            		<button class="heart btn btn-link"><i class="icon-heart-empty"></i>Podoba mi się!</button>
+				</div>
+                
+              
             
             </div> 
+            
         </div>
 
-		
+	
+    
         <div class="span3">
         
         <div class="menu-right">
-        	<ul class="nav nav-tabs" id="myTab">
+        	<ul class="nav nav-tabs" id="myTab" style="width:296px">
   				<li class="active"><a href="#okolica"><small>W tej samej okolicy</small></a></li>
   				<li><a href="#polecane"><small>Polecane</small></a></li>
   				<li><a href="#najlepsze"><small>Najlepsze</small></a></li>
@@ -129,24 +146,102 @@ body {
 			<div class="tab-content">
   				<div class="tab-pane active" id="okolica">
                 	<ul class="none">
+                   
 						<li>
-                    		<img src="http://dummyimage.com/150x100/807680/fff.png"/>
-                            <span class="powierzchnia pull-right">60</span><br>
-                            <span class="adres pull-right">ul. Śliczna</span><br>
-                            <span class="cena">5.000.000</span>
-                    	</li>
+                    		<span  class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                        
+                        <li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                      
                     </ul>
                 </div>
-  				<div class="tab-pane" id="polecane">...</div>
-  				<div class="tab-pane" id="najlepsze">...</div>
+  				<div class="tab-pane" id="polecane">
+               		<ul class="none">
+                   
+						<li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                        
+                        <li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                        
+                        <li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                        
+                        <li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                        
+                        <li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                      
+                    </ul>
+                
+                </div>
+  					
+                <div class="tab-pane" id="najlepsze">
+                	<ul class="none">
+                   
+						<li>
+                    		<span class="videoMini"><img src="http://dummyimage.com/100x100/807680/fff.png"/></span>
+                            	<div class="opis">
+                            		<span class="powierzchnia">60</span><br>
+                            		<span class="adres">ul. Śliczna</span><br>
+                            		<span class="cena">5.000.000</span>
+                            	</div>
+                    	</li><br>
+                      
+                    </ul>
+                </div>
 			</div>
 		
        
  
 			<script>
-  				$(function () {
-    			$('#myTab a:last').tab('show');
-  				})
+  			$('#myTab a').click(function (e) {
+  				e.preventDefault();
+  				$(this).tab('show');
+			});
 			</script>
 
 		</div>
