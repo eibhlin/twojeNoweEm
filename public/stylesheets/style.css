@@ -1,13 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
 .right {
 	margin-left:auto; 
 	margin-right:0px;
 } 
 
 .page-header {
-	display: inline-block;	
+	display: inline-block;
+	margin-top:-10px!important;	
+	height:80px;
 }
 
 .grey {
@@ -55,7 +59,7 @@
 	position:absolute;
 	list-style-type:none;	
 	width:270px;
-	height:400px;	
+	height:420px;	
 	display:inline-block;
 	margin-top:-50x;
 	margin-right:300px;
@@ -107,6 +111,25 @@ videoMini {
 	margin-top:-40px;
 	margin-bottom:auto;	
 }
+
+.mapa {
+	margin-left:-20px;	
+}
+
+
+.accordion {
+	width:278px;
+	float:right;
+}
+
+.tips {
+	position:absolute;	
+	margin-top:380px;
+	width:606px;
+	text-align:center;
+}
+
+
 
 
 
