@@ -136,7 +136,7 @@ body {
         
         
 		<div class="forward">
-    		<button class="btn btn-info"><i class="icon-double-angle-right icon-white"></i></button>   
+    		<button id="next" class="btn btn-info"><i class="icon-double-angle-right icon-white"></i></button>   
 		</div>
         
 		<div class="modal hide fade" id="myModal">
@@ -157,6 +157,13 @@ body {
 		</div>
 			 			               
 	</div>
-
+<script>
+$('#next').on('',function(){
+    //powinno być wgranych 6 kolejnych obrazków
+    login();//dopiszę
+    loadNext();//dopiszę
+    
+})
+</script>
 </body>
 </html>
