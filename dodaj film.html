@@ -88,20 +88,6 @@ body {
 		
         </script>
         
-       
-        <form class="form-inline">
-        	
-            <div class="btn-group">
-  			</div>
-            
-            
-            <div class="input-append pull-right">
-  					<input id="appendedInputButtons" type="text" placeholder="Mokotów, Biały Kamień" name="search" style="width:228px;">
-                	<button class="btn" type="button"><i class="icon-search"></i></button>
-         	</div>
-            
-         </form>
-        
         
          
 		<div class="span8">
@@ -131,15 +117,9 @@ body {
     				<div class="accordion-heading">
       					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Informacje o miejscu</a>
     				</div>
-    			<div id="collapseOne" class="accordion-body collapse in">
+    			<div id="collapseOne" class="accordion-body collapse">
       				<div class="accordion-inner">
-        				<form action="/send" method="post">
-            				<select name="typ_nieruchomosci" style="width:245px;">
-            					<option>Dom jednorodzinny</option>
-                				<option>Mieszkanie</option>
-            				</select>
-        				</form>
-                        <form action="/send" method="post">
+        				 <form action="/send" method="post">
             				<select name="" style="width:245px;">
             					<option>Na sprzedaż</option>
                 				<option>Do wynajęcia</option>
@@ -150,6 +130,13 @@ body {
                         	<label class="control-label" for="inputEmail">Adres</label>
         					<input type="text" id="inputEmail" style="width:190px;">
                         </form>
+                        
+                        <form action="/send" method="post">
+            				<select name="typ_nieruchomosci" style="width:245px;">
+            					<option>Dom jednorodzinny</option>
+                				<option>Mieszkanie</option>
+            				</select>
+        				</form>
                          
                         <form class="form-inline">   
                         	<label class="control-label" for="inputEmail">Powierzchnia</label>
@@ -164,7 +151,7 @@ body {
     				<div class="accordion-heading">
       					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Kontakt</a>
     				</div>
-    				<div id="collapseTwo" class="accordion-body collapse">
+    				<div id="collapseTwo" class="accordion-body collapse in">
       					<div class="accordion-inner">
                         	<label class="control-label" for="inputEmail">Email</label>
         					<input type="text" id="inputEmail" style="width:231px;">

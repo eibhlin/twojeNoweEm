@@ -14,6 +14,7 @@
     <script type="text/javascript" src="public/jquery.min.js"></script>
     <link href="public/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
     <script type="text/javascript" src="public/javascripts/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap-carousel.js"></script>
     
     <style type="text/css">
 body {
@@ -103,41 +104,94 @@ body {
          </form>
             
          
-        
-        <div class="row-fluid">
-        	<div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-        </div><br>
-        
-        <div class="row-fluid">
-        	<div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-            <div class="span4">
-            	<img src="http://dummyimage.com/300x200/807680/fff.png"/>
-            </div>
-        </div>
-        
-        
-        <div class="grey">
-        	
-        </div>
-        
-        
-        
-		<div class="forward">
-    		<button id="next" class="btn btn-info"><i class="icon-double-angle-right icon-white"></i></button>   
+        <div id="myCarousel" class="carousel slide">
+  			<ol class="carousel-indicators">
+    			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    			<li data-target="#myCarousel" data-slide-to="1"></li>
+    			<li data-target="#myCarousel" data-slide-to="2"></li>
+  			</ol>
+  		<!-- Carousel items -->
+  			<div class="carousel-inner">
+    			<div class="active item">
+                	<div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+        			</div><br>
+                    <div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/807680/fff.png"/>
+            			</div>
+        			</div><br>
+                </div>
+    			<div class="item">
+                	<div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+        			</div><br>
+                    <div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/535561/fff.png"/>
+            			</div>
+        			</div><br>
+                </div>
+    			<div class="item">
+                	<div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+        			</div><br>
+                    <div class="row-fluid">
+        				<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+            			<div class="span4">
+            				<img src="http://dummyimage.com/300x200/634f4f/fff.png"/>
+            			</div>
+        			</div><br>
+                </div>
+  			</div>
+  		<!-- Carousel nav -->
+  			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
+        
+        <script>$('.carousel').carousel()</script>
+        
         
 		<div class="modal hide fade" id="myModal">
 	

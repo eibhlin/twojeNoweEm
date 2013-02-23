@@ -129,6 +129,23 @@ videoMini {
 	text-align:center;
 }
 
+.carousel-control {
+	position:absolute;
+	margin-top:13px;	
+}
+
+.carousel-indicators {
+	list-style-type:none;
+}
+
+.menu-info {
+	margin-top:-10px;	
+}
+
+.video {
+	margin-top:0px;	
+}
+
 
 
 
