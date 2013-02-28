@@ -16,6 +16,8 @@
     <link href="public/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
     <script type="text/javascript" src="public/javascripts/bootstrap-modal.js"></script>
     <script type="text/javascript" src="public/javascripts/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="public/javascripts/bootstrap-popover.js"></script>
     
     <style type="text/css">
 body {
@@ -84,11 +86,7 @@ body {
 			
 		</div>
        
-        <script>
-		
-        </script>
-        
-       
+
         <form class="form-inline">
         	
             <div class="btn-group">
@@ -118,15 +116,18 @@ body {
                 
                 <span>Powierzchnia: 200 m²</span>
                 
-                <button class="wiecej btn btn-link"></i> więcej<i class="icon-double-angle-right"></i></button>
-            	
-                <div class="pull-right">
-            
-            
-            		<button class="heart btn btn-link"><i class="icon-heart-empty"></i> Podoba mi się!</button>
-				</div>
                 
-              
+               	<a href="#" class="wiecej btn btn-link" rel="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. right?"
+            data-original-title="A Title">więcej <i class="icon-double-angle-right"></i></a>
+             
+             	<script>
+			 		$('a[rel=popover]').popover()
+			 	</script>
+             
+            	
+                <div class="pull-right"> 
+            		<button class="heart btn btn-link"><i class="icon-heart-empty"></i> Podoba mi się!</button>
+				</div>  
             
             </div> 
             
@@ -269,3 +270,5 @@ body {
 
 </body>
 </html>
+
+
