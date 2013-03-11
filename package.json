@@ -1,0 +1,23 @@
+{
+"name":"smieciowki",
+"description":"smieciowki",
+"version":"0.0.1",
+"dependencies":{
+	"express":"3.x",
+	"mongoose":"*",
+	"nconf":"*",
+	"passport":"*",
+	"passport-facebook":"*",
+	"ejs":"*",
+	"socket.io":"*"
+	},
+"engines":{
+	"node":"0.8.x"
+	},
+"scripts":{
+	"start":"supervisor -e js,ejs --watch .,./public,./views,./routes,./models server.js",
+	"stop":"nodemon -w . -w public -w views -w routes -w models server.js"
+	},
+"main":"./server.js"
+
+}

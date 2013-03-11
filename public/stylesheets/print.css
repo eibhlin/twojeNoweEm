@@ -1,0 +1,69 @@
+@media print
+{
+	*{
+	font-family:serif;
+    
+	}
+	.noprint{display:none;}
+	
+    .auto-style1 {
+        border-width: 0;
+    }
+    .auto-style2 {
+        text-align: center;
+    }
+    .pagebrk {
+        page-break-after:always;
+        visibility:hidden;
+    }
+    /*hr:before { display: block; content: url('/stopka.png'); position:fixed; bottom:0px;}*/
+    body{
+    margin-left:1.5cm;
+    margin-right:1.5cm
+	}
+	.auto-style3 {
+		text-align: center;
+	}
+	.auto-style4 {
+	text-align: right;
+}
+
+}
+
+@media screen
+{
+
+
+    .auto-style1 {
+        border-width: 0;
+    }
+    .auto-style2 {
+        text-align: center;
+    }
+    .footer {
+        display:none; 
+    }
+.auto-style3 {
+	text-align: center;
+}
+.auto-style4 {
+	text-align: right;
+}
+    body{
+    margin-left:1.5cm;
+    margin-right:1.5cm
+	}
+
+}
+
+* .rachunek {
+	font-size:9pt;
+}
+td{padding:5px }
+
+.rachunek{
+	width:100%;
+	height:100%;
+	padding:5px ;
+} 
+

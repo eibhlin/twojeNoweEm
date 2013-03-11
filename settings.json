@@ -1,0 +1,15 @@
+{
+    "facebook": {
+        "applicationId": "503137889737634",
+        "applicationSecret": "dfb501c1115f8a39bd7467e10075aa2c"
+    },
+    "twitter": {
+        "consumerKey": "8BF4fwKMqRIvnhnFIRWnLw",
+        "consumerSecret": "mqPDxih2riLN5TeazL6yrw34ZJ4kRSG0jWw8nPrwb0U"
+    },
+    "recaptcha": {
+        "publicKey": "6Ld-ttoSAAAAAO6GBCYLERdOMY9rYHDWLuym3LS1",
+        "privateKey": "6Ld-ttoSAAAAAL5f83Mgda6sS1YR3JWjJ4HLHuij"
+    }
+	
+}

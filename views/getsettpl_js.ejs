@@ -1,0 +1,36 @@
+<script>
+function getTplObj(id){
+    console.log(id)
+    $('#myModal').modal('toggle');
+//~ return
+    $.ajax({
+      type: "GET",
+      url: "/umowaTpl/" + id,
+      data: {
+        "id": id
+        },
+      success: function(data){ 
+            console.log(data.length)
+            $("#umowa").html(data);
+      },
+      error: function(raz, dwa, trzy){
+            console.log(raz)
+            console.log(dwa)
+            console.log(trzy)
+      }
+    });
+$('#szablonSave').on('click', function(e){
+    saveTpl(id);
+    $('#myModal').modal('toggle');
+})
+}//===========================================================
+function saveTpl(id){ 
+    $.ajax({
+        type: 'PATCH',
+        url: '/umowaTpl/'+id,
+        data: {
+            'tresc_szablonu': $('#umowa').html()
+            }
+    });
+};//===========================================================
+</script>

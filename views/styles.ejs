@@ -1,0 +1,61 @@
+<!-- Embedded JavaScript -->
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/jquery-ui.js"></script>
+
+
+
+<link rel="stylesheet" href="/stylesheets/jquery-ui.css"  media="screen"/>
+
+<link href="/stylesheets/bootstrap.css" rel="stylesheet"  media="screen">
+<link href="/javascripts/bootstrap.min.js" rel="javascript" type="text/javascript">
+
+<% {var a= new Date(); if (a.getHours() < 7 || a.getHours()>=17){%><% include darkstrap  %><%}}%>
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<script src="/javascripts/bootstrap-modal.js"></script>
+
+<style>
+.nos {
+    /*border:1px single #faa732 !important;*/
+    /*background-color: #f0fff0 !important;*/
+}
+
+b{
+    display:none;
+}
+#p_0 .close,#p_{
+    display: none;
+}
+.noshow{
+    display:none;
+}
+#szablon{
+    visibility:hidden;
+}
+.addcursor{
+    cursor:move;
+}
+.dbg{
+    display:none;
+}
+.popover {
+    width: auto !important;
+}
+
+#Mbadges .badge{
+cursor: move;
+}
+
+body .modal {
+    /* new custom width */
+    width: 980px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: -460px;
+}
+.dzielo{
+font-size:7pt;
+text-overflow: ellipsis;
+}
+</style>
+<script>function _(text){console.log(txt)}</script>
